@@ -1,0 +1,349 @@
+body {
+    background-color: #282828;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #282828;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.contain {
+    display: flex;
+    margin-top: 50px;
+}
+.one {
+    background-image: url('pizza6.jpg');
+}
+.two {
+    background-image: url('pizza10.jpg');
+}
+.three {
+    background-image: url('pizza7.jpg');
+}
+.four {
+    background-image: url('pizza11.jpg');
+}
+.five {
+    background-image: url('pizza8.jpg');
+}
+.six {
+    background-image: url('pizza5.jpg');
+}
+.first {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+.linking {
+    color: #f7ddc6;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+    text-transform: uppercase;
+}
+.top {
+    margin-right: auto;
+    font-family:'Roboto', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+.item, .itemOne, .itemTwo, .itemThree {
+    color: #e0d2c4;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px; 
+    text-decoration: none;
+}
+.item:hover {
+    font-size: 30px;
+}
+.itemOne:hover {
+    font-size: 25px;
+    color:#c2854d;
+    text-decoration: underline;
+}
+.itemTwo:hover {
+    font-size: 25px;
+    color:#c2854d;
+    text-decoration: underline;
+}
+.itemThree:hover {
+    font-size: 25px;
+    color:#c2854d;
+    text-decoration: underline;
+}
+.insta:hover{
+    fill:#c2854d;
+}
+.twitter:hover{
+    fill:#c2854d;
+}
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: transparent;
+    opacity: 0;
+    color: #e0d2c4;
+}
+.selected {
+    flex: 4;
+}
+.selected h4 {
+    font-size: 35px;
+    transition: all 1s ease-in; 
+    opacity: 1; 
+}
+h1 {
+    font-family:'Roboto', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #f7ddc6;
+    background: linear-gradient(to left,#dfac40, #a15e43);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 80px;
+}
+.input-field {
+    display: flex;
+    justify-content: end;
+}
+#search {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 135px;
+    width: 250px;
+}
+.title {
+    color: #e0d2c4;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    width: 800px;
+}
+.text {
+    color: #564f48;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(201, 199, 199, 0.2), 0 6px 20px 0 rgba(136, 136, 136, 0.19);
+    border-radius: 7px;
+}
+hr {
+    margin-top: 50px;
+    color: #e0d2c4;
+    opacity: 0.4;
+}
+.footer {
+    display: flex;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: white;
+    color:#b97c42;
+}
+.flip-card-back {
+    background-color: white;
+    color: white;
+    transform: rotateY(180deg);
+} 
+.btn {
+    color: white;
+    background-color: rgb(26, 97, 26);
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100px;
+    box-shadow: 2px 3px 6px 0 #777575;
+    cursor: pointer;
+    justify-items: center;
+} 
+.btn:hover {
+    background-color: rgb(25, 75, 25);
+} 
+#contact {
+    margin-top: 50px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.btnTwo {
+    background-color:rgb(26, 97, 26);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+}
+.btnTwo:hover {
+    background-color: rgb(25, 75, 25);
+}
+h2 {
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: #e9d0ba;
+}
+label {
+    font-family:'Roboto', sans-serif;
+    color: #e0d2c4;
+    font-size: 20px;
+}
+.text-imput {
+    padding: 5px;
+    width: 300px;
+}
+.inemail {
+    margin-left: 30px;
+}
+@media all and (max-width:800px){
+    .first {
+        height: 50vh;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    .card {
+        width: 300px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .contain {
+        flex-direction: column;
+        height: 100vh;
+    }
+    h4 {
+        top: 15px;
+        left: 20px;
+        font-size: 20px;
+    }
+    .selected h4 {
+        font-size: 20px;
+    }
+    .inemail {
+        margin-left: 10px;
+    }
+    .text-imput {
+        padding: 5px;
+        width: 200px;
+    }
+    .btnTwo {
+        width: 300px;
+    }
+    #search {
+        margin-right: 100px;
+    }
+}
+@media all and (max-width:500px){
+    .first {
+        height: 50vh;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    .card {
+        width: 300px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    h4 {
+        top: 15px;
+        left: 20px;
+        font-size: 20px;
+    }
+    .contain {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .selected h4 {
+        font-size: 20px;
+    }
+    .inemail {
+        margin-left: 10px;
+    }
+    .text-imput {
+        padding: 5px;
+        width: 200px;
+    }
+    .btnTwo {
+        width: 280px;
+    }
+    #search {
+        margin-right: 90px;
+    }
+}
