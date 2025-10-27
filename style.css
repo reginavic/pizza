@@ -1,10 +1,10 @@
 body {
-  background-color: #282828;
+  background-color: #1f1f1f;
 }
 .navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #282828;
+  background-color: #1f1f1f;
   padding: 20px;
   flex-wrap: wrap;
 }
@@ -71,22 +71,22 @@ body {
   opacity: 1; 
 }
 .one {
-  background-image: url('pizza6.jpg');
+  background-image: url('pizza1.jpg');
 }
 .two {
-  background-image: url('pizza10.jpg');
+  background-image: url('pizza2.jpg');
 }
 .three {
-  background-image: url('pizza7.jpg');
+  background-image: url('pizza3.jpg');
 }
 .four {
-  background-image: url('pizza11.jpg');
+  background-image: url('pizza4.jpg');
 }
 .five {
-  background-image: url('pizza8.jpg');
+  background-image: url('pizza5.jpg');
 }
 .six {
-  background-image: url('pizza5.jpg');
+  background-image: url('pizza6.jpg');
 }
 .heading {
   display: flex;
